@@ -1,4 +1,4 @@
-## The Source code of SGAL of ICDE2024 submission
+## The source code of SGAL of ICDE2024 paper submission
 ## Training
 ```python
 # Train on Exchange-Rate
