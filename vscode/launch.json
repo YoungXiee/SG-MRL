@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "python": "/home/xieyang/anaconda3/envs/timeforcasting/bin/python3.8",
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/xieyang/文档/MAGNN/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--save","./model-solar_AL-3.pt","--data","./data/solar_AL.txt","--num_nodes","137","--batch_size","4","--epochs","30","--horizon","3"],
+            "env": {"CUDA_VISIBLE_DEVICE":"0"}
+            
+        }
+    ]
+}
